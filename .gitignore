@@ -1,1 +1,12 @@
+# Jekyll
 _site/
+
+# Compass
+.sass-cache
+
+# OS X
+.DS_Store
+
+# Vim
+*.swp
+
