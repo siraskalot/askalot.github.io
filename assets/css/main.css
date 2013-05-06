@@ -1,0 +1,40 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  border-top: 5px solid #3DB8A9;
+}
+
+header,
+content{
+  float: left;
+}
+
+header {
+  width: 15%;
+  margin-left: 10%;
+  text-align: right;
+}
+
+.about-me {
+  color: #333;
+}
+
+.me {
+  border-radius: 50%;
+}
+
+nav a {
+  float: right;
+  display: block;
+  padding: 0.5em 1em;
+  clear: right;
+}
+
+content {
+  width: 70%;
+  margin-right: 5%;
+}

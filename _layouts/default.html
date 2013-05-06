@@ -2,7 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}askalot</title>
+
+    <meta name="author" content="Arunan Skanthan">
+    <meta name="description" content="Thoughts, creations and learnings of Arunan Skanthan.">
+
+    <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="/assets/css/components/normalize-css/normalize.css">
     <link rel="stylesheet" href="/assets/css/main.css">
@@ -10,12 +15,39 @@
   <body>
     <header>
       <h1>{{ site.name }}</h1>
+
+      <img src="https://secure.gravatar.com/userimage/57841/44d478eba83e80bf88284b1cd48b4146?size=150" alt="" class="me" />
+
+      <p class="about-me">Hi! I'm Arunan, a designer &amp; front&ndash;end developer. Besides being a geek &mdash; I am also a maker of music, videos and art; and have a passion for food and travel.</p>
+
       <nav>
         <a href="/">Home</a>
+        <a href="/work">Work</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
      </nav>
     </header>
 
+    <div class="content">
     {{ content }}
+    </div>
+
+    <footer>
+      <p><a href="https://github.com/askalot/askalot.github.io#license">Copyleft</a> &copy; 2005&ndash;2012 Arunan Skanthan.</p>
+    </footer>
+
+    <!-- GitHub Ribbon -->
+    <!--
+    <a href="http://github.com/askalot"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" /></a>
+    -->
+
+    <!-- Google Analytics. -->
+    <script>
+      var _gaq=[['_setAccount','UA-463084-3'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
   </body>
 </html>
 
