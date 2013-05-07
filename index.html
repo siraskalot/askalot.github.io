@@ -1,12 +1,42 @@
 ---
 layout: default
-title: askalot
 ---
 
-<ul>
-  {% for post in site.posts %}
-  <li><span class="date">{{ post.date | date_to_string}}</span>
-  <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
 
+<h1>Work</h1>
+<div id="work" class="section">
+  <ul class="section">
+    <li class="preview">
+      <a href="#" class="work-description"><img alt="" src="/assets/images/work/nan-poster.png" />
+      <strong>Naach All Nite</strong>
+      <em>Poster Design</em></a>
+    </li>
+    <li class="preview">
+      <a href="#" class="work-description"><img alt="" src="/assets/images/work/dslic-branding.png" />
+      <strong>D.S.L.I.C</strong>
+      <em>Branding <span class="amp">&amp;</span> Poster Design</em></a>
+    </li>
+    <li class="preview">
+      <a href="#" class="work-description"><img alt="" src="/assets/images/work/deakinops-poster.png" />
+      <strong>Deakin University OPS</strong>
+      <em>Poster Design</em></a>
+    </li>
+    <li class="preview">
+      <a href="#" class="work-description">
+      <img alt="" src="/assets/images/work/blue-lotus.png" />
+      <strong>Blue Lotus</strong>
+      <em>Wallpaper</em></a>
+    </li>
+  </ul>
+</div>
+<a href="/work/" class="btn"> See all work &rarr;</a>
+
+
+<div class="home">
+  <h1>Lastest Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts limit:10 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-date">{{ post.date | date_to_string }}</span></li>
+    {% endfor %}
+  </ul>
+</div>
