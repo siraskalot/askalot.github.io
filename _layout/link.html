@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="post">
+  <h1>[{{ page.title }}]({{ page.url }})</h1>
+  <aside class="post-meta">
+  	<p>Posted {{ page.date | date_to_string }}.</p>
+  </aside>
+  {{ content }}
+</div>
+
+<div class="related-posts">
+  <h2>Related Posts</h2>
+  <ul>
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &mdash; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
