@@ -11,9 +11,6 @@ tags:
 
 >The first UX skills anyone learns is to shift their thinking from the requirements of the system and the business to the experience of the user. They become sensitive to what it’s like to use the designs they are creating. It’s rare for that to result in worse designs than what you had before you developed that sensitivity.
 
->Once you have everyone on the team with a solid UX skillset, you can tackle those harder, more complex problems by bringing in some expertise. Or better yet, growing your own.
-
->That’s how we get better designs all around.
 
 Jared Spool on [Hiring UX experts versus giving your team their own UX skills](https://medium.com/@jmspool/hiring-ux-experts-versus-giving-your-team-their-own-ux-skills-c1fd9e4e480)
 
