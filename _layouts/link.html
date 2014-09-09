@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="post">
-  <h1>[{{ page.title }}]({{ page.url }})</h1>
+  <h1><a href="{{ page.url }}">({{ page.title }})</a></h1>
   <aside class="post-meta">
   	<p>Posted {{ page.date | date_to_string }}.</p>
   </aside>
