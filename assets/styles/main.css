@@ -227,6 +227,8 @@ h3 {
   text-decoration: none;
   color: #c33;
   font-size: 1.2em;
+  display: inline-block;
+  max-width: 22em;
 }
 
 .post-date {
@@ -418,3 +420,4 @@ h3 {
   padding: 0.05em 0.4em;
   margin-top: 0.5em;
 }
+
