@@ -1,7 +1,7 @@
 ---
 layout: link
 title: Hiring UX experts versus giving your team their own UX skills
-url: https://medium.com/@jmspool/hiring-ux-experts-versus-giving-your-team-their-own-ux-skills-c1fd9e4e480
+link_url: https://medium.com/@jmspool/hiring-ux-experts-versus-giving-your-team-their-own-ux-skills-c1fd9e4e480
 tags:
   - ux
 ---
