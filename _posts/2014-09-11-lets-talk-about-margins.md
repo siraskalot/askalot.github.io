@@ -3,7 +3,12 @@ layout: link
 title: Let's talk about margins
 link_url: https://medium.com/message/lets-talk-about-margins-14646574c385
 tags:
-  - ux
+  - layout
+  - typography
+  - margins
+  - print
+  - books
+  - whitespace
 ---
 
 [Craig Mod](http://craigmod.com/):
