@@ -1,7 +1,7 @@
 ---
 layout: link
 title: Let's talk about margins
-url: https://medium.com/message/lets-talk-about-margins-14646574c385
+link_url: https://medium.com/message/lets-talk-about-margins-14646574c385
 tags:
   - ux
 ---
