@@ -12,7 +12,9 @@ tags:
 [Paul Ford](http://www.ftrain.com/):
 
 >Tilde.club is one cheap, unmodified Unix computer on the Internet.
+
 >That’s it. That’s all it is. It is no more than that.
+
 >If you look for more for it to be you will find nothing.
 
-A fun, geek nostalgia project - tilde.club is a not-so-social-network, a unix server with users who have funny retro pages.
+A fun, geek project - tilde.club is a not-so-social-network, a unix server with users who have funny retro pages.
