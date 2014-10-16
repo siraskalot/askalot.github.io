@@ -1,6 +1,6 @@
 ---
 layout: link
-title: I had a couple drinks and woke up with 1,000 nerds
+title: The story of Tile.Club
 link_url: https://medium.com/message/tilde-club-i-had-a-couple-drinks-and-woke-up-with-1-000-nerds-a8904f0a2ebf
 tags:
   - unix
