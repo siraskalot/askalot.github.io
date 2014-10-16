@@ -9,7 +9,7 @@ tags:
   - nostalgia
 ---
 
-(Paul Ford)[http://www.ftrain.com/]:
+[Paul Ford](http://www.ftrain.com/):
 
 >Tilde.club is one cheap, unmodified Unix computer on the Internet.
 >That’s it. That’s all it is. It is no more than that.
