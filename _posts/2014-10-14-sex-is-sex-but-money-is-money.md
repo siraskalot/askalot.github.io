@@ -8,7 +8,7 @@ tags:
   - entrepreneur
 ---
 
-[Svetlana Z](http://vanessahua.com/):
+Svetlana Z:
 
 >I paid someone to write my ad copy. I paid professional photographers $1,500 to shoot my pictures. I considered those investments in myself.
 
